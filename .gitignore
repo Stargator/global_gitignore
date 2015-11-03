@@ -94,16 +94,30 @@ nbactions.xml
 
 # OS generated files #
 ######################
+.apdisk/
+.AppleDB/
+.AppleDesktop/
 .Trash-*/
-.Trashes/
+Network Trash Folder/
+Temporary Items/
 *~
 .directory
 .DS_Store
 .DS_Store?
 ._*
+.AppleDouble
+.fseventsd
+.DocumentRevisions-V100
+.LSOverride
 .Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
 ehthumbs.db
 Thumbs.db
+
+# Icon must end with two \r
+Icon
 
 
 # Packages #
