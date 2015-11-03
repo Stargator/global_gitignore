@@ -13,7 +13,7 @@
 *.so
 
 # IDE ignores #
-# Eclipse generated files and folders #
+## Eclipse generated files and folders ##
 #######################################
 .settings/
 bin/
@@ -27,49 +27,49 @@ tmp/
 .metadata
 local.properties
 
-## Locally stored "Eclipse launch configurations" ##
+### Locally stored "Eclipse launch configurations" ###
 *.launch
 
-## PDT-specific ##
+### PDT-specific ###
 .buildpath
 
-## JDT-specific (Eclipse Java Development Tools) ##
+### JDT-specific (Eclipse Java Development Tools) ###
 .classpath
 
-## CDT-specific ##
+### CDT-specific ###
 .cproject
 
-## External tool builders ##
+### External tool builders ###
 .externalToolBuilders/
 
-## Java annotation processor (APT) ##
+### Java annotation processor (APT) ###
 .factorypath
 
-## Eclipse Core ##
+### Eclipse Core ###
 .project
 
-## sbteclipse plugin ##
+### sbteclipse plugin ###
 .target
 
-## TeXlipse plugin ##
+### TeXlipse plugin ###
 .texlipse
 
-# JetBrains IDEs: IntelliJ and Android Studio #
+## JetBrains IDEs: IntelliJ and Android Studio ##
 ######################################################
-## Directory-based project format: ##
+### Directory-based project format: ###
 /.idea/
 /out/
 /*.iml
 
-## Plugin-specific files: ##
+### Plugin-specific files: ###
 
-### mpeltonen/sbt-idea plugin ###
+#### mpeltonen/sbt-idea plugin ####
 .idea_modules/
 
-### JIRA plugin ###
+#### JIRA plugin ####
 atlassian-ide-plugin.xml
 
-### Crashlytics plugin (for Android Studio and IntelliJ) ###
+#### Crashlytics plugin (for Android Studio and IntelliJ) ####
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
