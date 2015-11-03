@@ -1,6 +1,5 @@
 # Build Tools #
 ###################
-/build/
 /target/
 .gradle
 
@@ -55,7 +54,7 @@ local.properties
 ## TeXlipse plugin ##
 .texlipse
 
-# Covers JetBrains IDEs: IntelliJ and Android Studio #
+# JetBrains IDEs: IntelliJ and Android Studio #
 ######################################################
 ## Directory-based project format: ##
 /.idea/
@@ -76,6 +75,17 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+## NetBeans generated files/folders ##
+##############
+/.nb-gradle/
+/build/
+/dist/
+/nbbuild/
+/nbdist/
+/nbproject/private/
+nb-configuration.xml
+nbactions.xml
+
 # Logs and databases #
 ######################
 *.log
@@ -84,13 +94,17 @@ fabric.properties
 
 # OS generated files #
 ######################
+.Trash-*/
 .Trashes/
+*~
+.directory
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 ehthumbs.db
 Thumbs.db
+
 
 # Packages #
 ############
