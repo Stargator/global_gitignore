@@ -2,7 +2,7 @@
 ###################
 ## Gradle files and folders ##
 ##############################
-.gradle/
+/.gradle/
 /build/
 gradle-app.setting
 .gradletasknamecache
