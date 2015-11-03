@@ -98,6 +98,7 @@ nbactions.xml
 .AppleDB/
 .AppleDesktop/
 .Trash-*/
+$RECYCLE.BIN/
 Network Trash Folder/
 Temporary Items/
 *~
@@ -113,12 +114,22 @@ Temporary Items/
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
+Desktop.ini
 ehthumbs.db
 Thumbs.db
 
 # Icon must end with two \r
 Icon
 
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
 
 # Packages #
 ############
