@@ -11,7 +11,15 @@ gradle-app.setting
 !gradle-wrapper.jar
 
 ## Maven ##
+/.mvn/
 /target/
+buildNumber.properties
+dependency-reduced-pom.xml
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
 
 # Compiled source #
 ###################
