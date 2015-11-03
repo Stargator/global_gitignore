@@ -21,26 +21,60 @@ bin/
 tmp/
 *.bak
 *~.nib
-*.launch                # Locally stored "Eclipse launch configurations"
 *.pydevproject
 *.swp
 *.tmp
-.buildpath              # PDT-specific
-.classpath              # JDT-specific (Eclipse Java Development Tools)
-.cproject               # CDT-specific
-.externalToolBuilders/  # External tool builders
-.factorypath            # Java annotation processor (APT)
 .loadpath
 .metadata
-.project                # Eclipse Core
-.target                 # sbteclipse plugin
-.texlipse               # TeXlipse plugin
 local.properties
 
-# IntelliJ generated files/folders #
-####################################
+## Locally stored "Eclipse launch configurations" ##
+*.launch
+
+## PDT-specific ##
+.buildpath
+
+## JDT-specific (Eclipse Java Development Tools) ##
+.classpath
+
+## CDT-specific ##
+.cproject
+
+## External tool builders ##
+.externalToolBuilders/
+
+## Java annotation processor (APT) ##
+.factorypath
+
+## Eclipse Core ##
+.project
+
+## sbteclipse plugin ##
+.target
+
+## TeXlipse plugin ##
+.texlipse
+
+# Covers JetBrains IDEs: IntelliJ and Android Studio #
+######################################################
+## Directory-based project format: ##
 /.idea/
+/out/
 /*.iml
+
+## Plugin-specific files: ##
+
+### mpeltonen/sbt-idea plugin ###
+.idea_modules/
+
+### JIRA plugin ###
+atlassian-ide-plugin.xml
+
+### Crashlytics plugin (for Android Studio and IntelliJ) ###
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
 
 # Logs and databases #
 ######################
