@@ -96,7 +96,6 @@ fabric.properties
 ## NetBeans generated files/folders ##
 ##############
 /.nb-gradle/
-/build/
 /dist/
 /nbbuild/
 /nbdist/
