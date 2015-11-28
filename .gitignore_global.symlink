@@ -1,0 +1,165 @@
+# Build Tools #
+###################
+## Gradle files and folders ##
+##############################
+/.gradle/
+/build/
+gradle-app.setting
+.gradletasknamecache
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+## Maven ##
+/.mvn/
+/target/
+buildNumber.properties
+dependency-reduced-pom.xml
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# IDE ignores #
+## Eclipse generated files and folders ##
+#######################################
+/.settings/
+/.project
+bin/
+tmp/
+*.bak
+*~.nib
+*.pydevproject
+*.swp
+*.tmp
+.loadpath
+.metadata
+local.properties
+
+### Locally stored "Eclipse launch configurations" ###
+*.launch
+
+### PDT-specific ###
+.buildpath
+
+### JDT-specific (Eclipse Java Development Tools) ###
+.classpath
+
+### CDT-specific ###
+.cproject
+
+### External tool builders ###
+.externalToolBuilders/
+
+### Java annotation processor (APT) ###
+.factorypath
+
+### sbteclipse plugin ###
+.target
+
+### TeXlipse plugin ###
+.texlipse
+
+## JetBrains IDEs: IntelliJ and Android Studio ##
+######################################################
+### Directory-based project format: ###
+/.idea/
+/out/
+/*.iml
+
+### Plugin-specific files: ###
+
+#### mpeltonen/sbt-idea plugin ####
+.idea_modules/
+
+#### JIRA plugin ####
+atlassian-ide-plugin.xml
+
+#### Crashlytics plugin (for Android Studio and IntelliJ) ####
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+## NetBeans generated files/folders ##
+##############
+/.nb-gradle/
+/dist/
+/nbbuild/
+/nbdist/
+/nbproject/private/
+/.nb-gradle-properties
+/nb-configuration.xml
+/nbactions.xml
+
+## Jekyll generated files/folders ##
+/_site
+/.divshot-cache/
+/.sass-cache/
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.apdisk/
+.AppleDB/
+.AppleDesktop/
+.Trash-*/
+$RECYCLE.BIN/
+Network Trash Folder/
+Temporary Items/
+*~
+.directory
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.fseventsd
+.DocumentRevisions-V100
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+
+# Icon must end with two \r
+Icon
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
