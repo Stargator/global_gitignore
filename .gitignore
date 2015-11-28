@@ -33,7 +33,8 @@ release.properties
 # IDE ignores #
 ## Eclipse generated files and folders ##
 #######################################
-.settings/
+/.settings/
+/.project
 bin/
 tmp/
 *.bak
@@ -43,7 +44,6 @@ tmp/
 *.tmp
 .loadpath
 .metadata
-.project
 local.properties
 
 ### Locally stored "Eclipse launch configurations" ###
@@ -98,8 +98,14 @@ fabric.properties
 /nbbuild/
 /nbdist/
 /nbproject/private/
-nb-configuration.xml
-nbactions.xml
+/.nb-gradle-properties
+/nb-configuration.xml
+/nbactions.xml
+
+## Jekyll generated files/folders ##
+/_site
+/.divshot-cache/
+/.sass-cache/
 
 # Logs and databases #
 ######################
