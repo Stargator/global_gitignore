@@ -1,9 +1,9 @@
 # Build Tools #
-###################
+###############
 ## Gradle files and folders ##
 ##############################
-/.gradle/
-/build/
+.gradle/
+build/
 gradle-app.setting
 .gradletasknamecache
 
@@ -11,8 +11,9 @@ gradle-app.setting
 !gradle-wrapper.jar
 
 ## Maven ##
-/.mvn/
-/target/
+###########
+.mvn/
+target/
 buildNumber.properties
 dependency-reduced-pom.xml
 pom.xml.tag
@@ -21,20 +22,16 @@ pom.xml.versionsBackup
 pom.xml.next
 release.properties
 
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+## Bower & NodeJS ##
+####################
+bower_components/
+node_modules/
 
 # IDE ignores #
 ## Eclipse generated files and folders ##
-#######################################
-/.settings/
-/.project
+#########################################
+.settings/
+.project
 bin/
 tmp/
 *.bak
@@ -71,11 +68,11 @@ local.properties
 .texlipse
 
 ## JetBrains IDEs: IntelliJ and Android Studio ##
-######################################################
+#################################################
 ### Directory-based project format: ###
-/.idea/
-/out/
-/*.iml
+.idea/
+out/
+*.iml
 
 ### Plugin-specific files: ###
 
@@ -92,20 +89,30 @@ crashlytics-build.properties
 fabric.properties
 
 ## NetBeans generated files/folders ##
-##############
-/.nb-gradle/
-/dist/
-/nbbuild/
-/nbdist/
-/nbproject/private/
-/.nb-gradle-properties
-/nb-configuration.xml
-/nbactions.xml
+######################################
+.nb-gradle/
+dist/
+nbbuild/
+nbdist/
+nbproject/private/
+.nb-gradle-properties
+nb-configuration.xml
+nbactions.xml
 
-## Jekyll generated files/folders ##
-/_site
-/.divshot-cache/
-/.sass-cache/
+# Jekyll generated files/folders #
+##################################
+_site/
+.divshot-cache/
+.sass-cache/
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
 # Logs and databases #
 ######################
