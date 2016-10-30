@@ -1,0 +1,34 @@
+[alias]
+	co = commit -m
+	gc-all = -c gc.reflogExpire=0 -c gc.reflogExpireUnreachable=0 -c gc.rerereresolved=0 -c gc.rerereunresolved=0 -c gc.pruneExpire=now gc "$@"
+	last = log -1 HEAD
+	out = checkout
+	ps = push -u
+	rm-b = push origin --delete
+	tree = log --oneline --graph --decorate --all
+[core]
+	autocrlf = input
+	editor = '' -w
+	excludesfile = global_gitignore/.gitignore_global.symlink
+	filemode = false
+	hideDotFiles = dotGitOnly
+	ignorecase = true
+	logallrefupdates = true
+	repositoryformatversion = 0
+	symlinks = false
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[gui]
+	encoding = utf-8
+	geometry = 1103x555+180+180 212 251
+	matchtrackingbranch = true
+	pruneduringfetch = true
+	wmstate = zoomed
+[push]
+	default = simple
+[user]
+	name = Stargator
+	email = wildbug@linuxmail.org
+	useconfigonly = true
